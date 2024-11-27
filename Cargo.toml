@@ -1,0 +1,10 @@
+[package]
+name = "nova_egui"
+version = "0.0.0"
+edition = "2021"
+
+[dependencies]
+egui = { git = "https://github.com/emilk/egui", rev = "84cc1572b175d49a64f1b323a6d7e56b1f1fba66" }
+egui_glow = { git = "https://github.com/emilk/egui", rev = "84cc1572b175d49a64f1b323a6d7e56b1f1fba66" }
+nova = { git = "https://github.com/17cupsofcoffee/nova", rev = "eb532532bbdf437ad89e6cc29538b7e06dbf1878" }
+webbrowser = "1.0"
